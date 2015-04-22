@@ -62,7 +62,7 @@ class ecomCatalog extends ecomBase {
 									 '<!--VGO PRODUCT_NAME -->' => $exAll['product_name'],
 									 '<!--VGO PRODUCT_CODE -->' => $exAll['product_code'],
 									 '<!--VGO PRODUCT_DES -->' => $exAll['product_brief'],									 
-							 		'vgo_scenario' => 0);
+							 		 'vgo_scenario' => 0);
 			}
 			print $this->showTemplateLoopAjax("product", 0, 0, 'content', $paraData, $paraData1);				
 		}
