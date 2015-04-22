@@ -7,7 +7,7 @@
 	// display MAIN section HERE
 	// =======================================================
 	
-	/*$paraData = array();
+	$paraData = array();
 	$paraData1 = array();
 	$queryProduct = $emxTECH->primDB->emx_mysql_db_query("select * from eProducts where product_mac = 'ACE' and product_visible = '1'");		
 	
@@ -22,15 +22,15 @@
 							 'vgo_scenario' => 0);
 	}	
 	
-	print $emxTECH->showTemplateLoopAjax("product", 0, 0, 'content', $paraData, $paraData1);*/
+	print $emxTECH->showTemplateLoopAjax("product", 0, 0, 'content', $paraData, $paraData1);
 	
-	$aLink = $currSiteURL."templates/images/dummy.jpg";
+	/*$aLink = $currSiteURL."templates/images/dummy.jpg";
 	$paraData1[] = array('<!--VGO PRODUCT_IMAGE -->' => $aLink,
 						 'vgo_scenario' => 0);
 	$paraData1[] = array('<!--VGO PRODUCT_IMAGE -->' => $aLink,
 						 'vgo_scenario' => 0);
 	$paraData1[] = array('<!--VGO PRODUCT_IMAGE -->' => $aLink,
 						 'vgo_scenario' => 0);
-	print $emxTECH->showTemplateLoopAjax("product", 2, 0, 'content', array(), $paraData1);
+	print $emxTECH->showTemplateLoopAjax("product", 2, 0, 'content', array(), $paraData1);*/
 	
 ?>
